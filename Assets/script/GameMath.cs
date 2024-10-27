@@ -64,11 +64,11 @@ public class GameMath : MonoBehaviour {
                 skor += 20;  // Tambah skor jika jawaban benar
                 feed_benar.SetActive(true);
                 feed_salah.SetActive(false);
+            tampil_pernyataan();  // Tampilkan pernyataan berikutnya
             } else {
                 feed_benar.SetActive(false);
                 feed_salah.SetActive(true);
             }
-            tampil_pernyataan();  // Tampilkan pernyataan berikutnya
         }
     }
 
